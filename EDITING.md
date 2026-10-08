@@ -40,4 +40,7 @@ Replace files directly in `editable/assets/` or update paths in `editable/weddin
 - Groom photo: `editable/assets/groom.png`
 - Bride photo: `editable/assets/bride.png`
 - Map preview image: `editable/assets/map-preview.jpg`
-- Gallery images: `couple-1.jpg`, `couple-2.jpg`, `couple-3.jpg`, `couple-4.jpg`
+### Music
+Edit `music` block in `editable/wedding-data.js`:
+- `src`: Path to background track (`./editable/assets/bg-music.mp3`)
+- `title`: Track title (`Hridayam · Clicked (Original Score)`)

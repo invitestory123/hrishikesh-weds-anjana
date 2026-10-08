@@ -104,7 +104,7 @@
     </style>
     <script>
       window.addEventListener('DOMContentLoaded', function() {
-        var START_AT = 17; // skip lead-in, start at melody
+        var START_AT = 0; // audio is pre-trimmed directly to melody
 
         var wrapper = document.createElement('div');
         wrapper.id = 'music-control';
@@ -134,9 +134,10 @@
         } catch (err) {}
         var seen = {};
         configured.concat([
-          './the_rose.mp3',
+          './editable/assets/bg-music.mp3',
+          './bg-music.mp3',
           './editable/assets/the_rose.mp3',
-          './editable/assets/bg-music.mp3'
+          './the_rose.mp3'
         ]).forEach(function(src) {
           if (!src || seen[src]) return;
           seen[src] = true;

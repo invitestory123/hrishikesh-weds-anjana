@@ -47,8 +47,8 @@ window.WEDDING_DATA = {
   },
 
   music: {
-    src: "./editable/assets/the_rose.mp3",
-    title: "The Rose (Instrumental)",
+    src: "./editable/assets/bg-music.mp3",
+    title: "Hridayam · Clicked (Original Score)",
   },
 
   images: {
