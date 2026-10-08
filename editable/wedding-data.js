@@ -14,6 +14,7 @@ window.WEDDING_DATA = {
       photo: "./editable/assets/groom.png",
       photos: [
         "./editable/assets/groom.png",
+        "./editable/assets/couple-1.jpg",
       ],
     },
     bride: {
@@ -24,6 +25,7 @@ window.WEDDING_DATA = {
       photo: "./editable/assets/bride.png",
       photos: [
         "./editable/assets/bride.png",
+        "./editable/assets/couple-2.jpg",
       ],
     },
   },
@@ -59,24 +61,28 @@ window.WEDDING_DATA = {
 
   gallery: [
     {
-      src: "./editable/assets/couple-1.jpg",
-      title: "Hrishikesh & Anjana",
-      subtitle: "Walking into Forever",
-    },
-    {
       src: "./editable/assets/couple-2.jpg",
-      title: "Joy & Laughter",
-      subtitle: "Together Always",
+      caption: "Love in every whispered smile",
+      title: "Hrishikesh & Anjana",
+      subtitle: "Love in every whispered smile",
     },
     {
       src: "./editable/assets/couple-3.jpg",
+      caption: "Dance of love & timeless promises",
       title: "Dance of Love",
-      subtitle: "Every Step With You",
+      subtitle: "Dance of love & timeless promises",
     },
     {
       src: "./editable/assets/couple-4.jpg",
+      caption: "Hand in hand, into forever",
       title: "Hand in Hand",
-      subtitle: "A Promise for a Lifetime",
+      subtitle: "A promise for a lifetime",
+    },
+    {
+      src: "./editable/assets/couple-1.jpg",
+      caption: "Together, wherever the journey leads",
+      title: "Walking into Forever",
+      subtitle: "Together, wherever the journey leads",
     },
   ],
 };
