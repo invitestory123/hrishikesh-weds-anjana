@@ -19,12 +19,12 @@ Edit `couple.groom` and `couple.bride` in `editable/wedding-data.js`:
 
 ### Wedding Date & Times
 Edit `wedding` block in `editable/wedding-data.js`:
-- `dateISO`: Start time in ISO 8601 (`"2026-12-25T10:00:00+05:30"`)
+- `dateISO`: Start time in ISO 8601 (`"2026-12-25T11:30:00+05:30"`)
 - `endISO`: End time in ISO 8601
 - `dateLabel`: Formatted date (`"Friday, 25 December 2026"`)
 - `dateShort`: Short date (`"25 · 12 · 2026"`)
-- `timeLabel`: e.g. `"Muhurtham time will be updated soon"`
-- `muhurthamLabel`: e.g. `"Wedding Ceremony"`
+- `timeLabel`: `"11:30 AM onwards"`
+- `muhurthamLabel`: `"Muhurtham · 11:30 AM"`
 - `footerDateLocation`: Bottom signoff (`"25 · 12 · 2026 · Payyanur, Kerala"`)
 
 ### Venue & Maps

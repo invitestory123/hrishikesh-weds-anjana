@@ -1,11 +1,11 @@
 /**
  * wedding-data.js — Customer-facing editable data layer for kerala-sands
- * Wedding Invitation: Anjana & Hrishikesh
+ * Wedding Invitation: Hrishikesh & Anjana
  */
 
 window.WEDDING_DATA = {
   couple: {
-    order: "bride-first",
+    order: "groom-first",
     groom: {
       name: "Hrishikesh",
       fullName: "Hrishikesh Madhavan",
@@ -14,7 +14,6 @@ window.WEDDING_DATA = {
       photo: "./editable/assets/groom.png",
       photos: [
         "./editable/assets/groom.png",
-        "./editable/assets/couple-1.jpg",
       ],
     },
     bride: {
@@ -25,19 +24,17 @@ window.WEDDING_DATA = {
       photo: "./editable/assets/bride.png",
       photos: [
         "./editable/assets/bride.png",
-        "./editable/assets/couple-2.jpg",
       ],
     },
   },
 
   wedding: {
-    dateISO: "2026-12-25T10:00:00+05:30",
+    dateISO: "2026-12-25T11:30:00+05:30",
     endISO: "2026-12-25T15:00:00+05:30",
     dateLabel: "Friday, 25 December 2026",
     dateShort: "25 · 12 · 2026",
-    timeLabel: "Muhurtham time will be updated soon",
-    muhurthamLabel: "Wedding Ceremony",
-    invitationLine: "Together with our families, we joyfully invite you to celebrate our wedding and share in the blessing of our new beginning.",
+    timeLabel: "11:30 AM onwards",
+    muhurthamLabel: "Muhurtham · 11:30 AM",
     footerDateLocation: "25 · 12 · 2026 · Payyanur, Kerala",
   },
 
