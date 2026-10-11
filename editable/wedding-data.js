@@ -29,12 +29,12 @@ window.WEDDING_DATA = {
   },
 
   wedding: {
-    dateISO: "2026-12-25T11:30:00+05:30",
+    dateISO: "2026-12-25T10:00:00+05:30",
     endISO: "2026-12-25T15:00:00+05:30",
     dateLabel: "Friday, 25 December 2026",
     dateShort: "25 · 12 · 2026",
-    timeLabel: "11:30 AM onwards",
-    muhurthamLabel: "Muhurtham · 11:30 AM",
+    timeLabel: "10:00 AM onwards",
+    muhurthamLabel: "Muhurtham · 10:30 AM",
     footerDateLocation: "25 · 12 · 2026 · Payyanur, Kerala",
   },
 
@@ -57,12 +57,6 @@ window.WEDDING_DATA = {
   },
 
   gallery: [
-    {
-      src: "./editable/assets/couple-2.jpg",
-      caption: "Love in every whispered smile",
-      title: "Hrishikesh & Anjana",
-      subtitle: "Love in every whispered smile",
-    },
     {
       src: "./editable/assets/couple-3.jpg",
       caption: "Dance of love & timeless promises",
